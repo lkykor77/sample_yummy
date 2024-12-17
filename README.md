@@ -2,7 +2,7 @@
 
 ---
 
-While working as a cybersecurity analyst for yummyrecipesforme.com, a (**fictional**) website that sells recipes and cookbooks, a malicious actor decided to publish the website’s best-selling recipes on their website for the public to access for free. 
+While working as a cybersecurity analyst that specializes in providing IT services, several customers of clients reported that they could not access the client company website  yummyrecipesforme.com, a (**fictional**) website that sells recipes and cookbooks, and saw the error "destination port unreachable". A malicious actor decided to publish the website’s best-selling recipes on their website for the public to access for free. 
 
 The attacker executed a dictionary attack; a type of brute-force attack to gain access to the web host. Later investigations revealed they repeatedly entered several known default passwords for the administrative account until they entered the correct password. After obtaining the login credentials, the malicious actor was able to access the admin panel and change our website’s source code. Investigations reveal they embedded a JavaScript function in the website's source code that prompted visitors to download and run a file upon visiting the website. After executing the file, the victims are redirected to a fake version of our website where our recipes are now available for free.
 
